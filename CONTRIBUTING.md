@@ -13,7 +13,7 @@ and change your copy as much as you like.
 
 ## Found a bug? Tell us with the form
 
-[Report a bug](https://github.com/superformlabs/ga4-demo-public-dataset/issues/new?template=bug-report.yml).
+[Report a bug](https://github.com/superformlabs/GA4-BigQuery-export-data-generator/issues/new?template=bug-report.yml).
 It is the only kind of issue this repository takes, and we read every one. A
 bug in the app and a bug in the generator are both welcome. A good report says
 what happened, what you expected, and which page you were on.

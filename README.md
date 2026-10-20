@@ -343,7 +343,7 @@ rows the generator writes.
 
 Please tell us. Open an issue with the bug form:
 
-<https://github.com/superformlabs/ga4-demo-public-dataset/issues/new?template=bug-report.yml>
+<https://github.com/superformlabs/GA4-BigQuery-export-data-generator/issues/new?template=bug-report.yml>
 
 A good report says what you ran, what you expected and what happened. Paste
 the command and the output. Please leave out anything private: an issue is
