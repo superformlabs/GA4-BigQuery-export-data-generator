@@ -1,0 +1,52 @@
+name: Request a feature
+description: Something you would like the Superform Labs GA4 BigQuery Export Data Generator to do. Ideas for the app, the generator in this repository and the public demo datasets are all welcome here.
+title: "Feature: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the idea. We read every request.
+
+        **Please do not write private details here.** This issue is readable
+        by everyone, now and later. So no Google Cloud project ID, no dataset
+        name, no email address, and no key, token or password.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where it belongs
+      options:
+        - The dataset generator app
+        - The generator in this repository
+        - The public demo datasets
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What you would like
+      description: The feature, in a few sentences. If it is a new event, parameter or behaviour in the data, say how it would look in the export.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What it would help you do
+      description: The task, analysis or lesson it would make possible or easier.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How you do it today
+      description: Any workaround you use now, or why there is none.
+    validations:
+      required: false
+  - type: checkboxes
+    id: no-private-details
+    attributes:
+      label: Before you send it
+      options:
+        - label: This request holds no project ID, no dataset name, no email address and no key.
+          required: true
